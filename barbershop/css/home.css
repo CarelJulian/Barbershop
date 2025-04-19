@@ -1,0 +1,157 @@
+/* Reset margin dan padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: black;
+    position: relative;
+}
+
+.brand {
+    font-size: 24px;
+    color: #b7a256;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1; /* Biarkan brand mengisi ruang yang ada */
+}
+
+/* Gaya tombol umum */
+.btn {
+    background-color: #333; /* Warna emas */
+    color: #FFD700;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none; /* Menghilangkan garis bawah */
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #E5C100;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image-container {
+    display: flex;
+    width: 85%;
+    height: 400px;
+}
+
+.image {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.8;
+}
+
+/* Gunakan path relatif untuk gambar */
+#left {
+    background-image: url('../gambar/rambut2.png'); 
+    background-color: rgba(219, 96, 176, 0.5);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../gambar/rambut3.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: rgba(255, 204, 0, 0.5);
+}
+
+.center h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    position: absolute;
+    bottom: -20px;
+}
+
+#right {
+    background-image: url('../gambar/rambut1.png');
+    background-color: rgba(255, 165, 0, 0.5);
+}
+
+/* Deskripsi */
+.description {
+    background-color: rgb(38, 38, 40);
+    padding: 20px;
+    text-align: center;
+}
+
+/* ===== BURGER MENU DROPDOWN ===== */
+
+.menu-wrapper {
+    position: relative;
+    margin-right: 15px;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    color: #FFD700;
+    padding: 10px 15px;
+    border-radius: 12px;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.menu-toggle:hover {
+    background-color: #444;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: #111;
+    border: 1px solid #555;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    width: 180px;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #FFD700;
+    padding: 12px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.dropdown-menu a:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.show {
+    display: block;
+}

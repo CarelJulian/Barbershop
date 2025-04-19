@@ -1,0 +1,93 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('../gambar/potong6.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Overlay background dengan opacity */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* ubah 0.6 jadi 0.5 atau 0.7 sesuai gelap yang diinginkan */
+    z-index: -1;
+}
+
+/* Container Form Login */
+.login-container {
+    background: rgba(30, 30, 30, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Judul */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #f4c542;
+}
+
+/* Input Field */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: #878484;
+    color: white;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efek Glow di Input */
+input:focus {
+    border-color: #f4c542;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+/* Tombol Login */
+button {
+    background-color: #f4c542;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Efek Hover Tombol */
+button:hover {
+    background-color: #d4a72e;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+
+/* Pesan Kesalahan */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

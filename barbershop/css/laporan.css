@@ -1,0 +1,119 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #ffd700;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-form select,
+.filter-form button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #ffd700;
+    transition: background-color 0.3s ease;
+}
+
+.filter-form button:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #222;
+    color: #ffd700;
+}
+
+tr:hover {
+    background-color: #2a2a2a;
+}
+
+tfoot td {
+    background-color: #222;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+/* Tombol wrapper agar tombol tampil rapi dan sejajar */
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Tombol kembali */
+.btn-kembali {
+    background-color: #333;
+    color: #ffd700;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-kembali:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Tombol cetak */
+.btn-cetak {
+    background-color: #ffd700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cetak:hover {
+    background-color: #c49b0e;
+    color: #fff;
+}

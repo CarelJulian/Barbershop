@@ -1,0 +1,145 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212; /* Warna dasar gelap */
+}
+
+/* Slideshow Background */
+.background-slideshow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    animation: slide 24s infinite linear;
+    opacity: 0.2;
+}
+
+@keyframes slide {
+    0%   { background-image: url('../gambar/potong1.jpg'); }
+    25%  { background-image: url('../gambar/potong5.jpeg'); }
+    50%  { background-image: url('../gambar/potong6.jpeg'); }
+    75%  { background-image: url('../gambar/potong7.jpeg'); }
+    100% { background-image: url('../gambar/potong8.jpeg'); }
+}
+
+/* Navbar */
+.navbar {
+    background: #000000; /* Warna hitam */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.navbar .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0fa6f1; /* Warna emas dari gambar */
+    text-decoration: none;
+}
+
+/* Menu */
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .menu a {
+    color: #0fa6f1;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Efek Hover */
+.navbar .menu a:hover {
+    background: #f1400f; /* Warna emas */
+    color: #000;
+}
+
+/* Tombol Logout */
+.navbar .logout-btn {
+    background: #333;
+    color: black;
+    padding: 8px 11px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    margin-right: 30px;
+}
+
+.navbar .logout-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    color: white;
+}
+
+/* Menu Container */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Menu Card */
+.menu-card {
+    background: #222;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    width: 200px;
+}
+
+.menu-card:hover {
+    background: #0fa6f1;
+    color: black;
+}
+
+/* Logout Button in Dashboard */
+.logout-btn {
+    background: #f1c40f;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.logout-btn:hover {
+    background: white;
+    color: black;
+}
+
+
