@@ -1,5 +1,7 @@
 # Barbershop (kelompok 2)
 Aplikasi Berbasis web dengan fungsi memudahkan usaha barbershop dengan menampilkan nomor antrian kepada pelanggan agar dapat menunggu antrian secara lebih efisien. Selain itu, untuk memudahkan admin/pengelola barbershop dapat mengatur nomor antrian pelanggan, juga memudahkan untuk merekap atau mencatat laporan penjualan/penghasilan secara bulanan.
+Berikut gambar halaman utama :
+![Halaman Utama](images/HalamanUtama.png)
 
 Anggota Kelompok : 
 1. Carel Ray Juliano (23050974009)
