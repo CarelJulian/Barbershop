@@ -8,6 +8,6 @@ Anggota Kelompok :
 1. Carel Ray Juliano (23050974009)
 2. Aditya Maulana Yahya (23050974032)
 3. Winasari Rahma (23050974033)
-4. Agresya imelda anggrela (23050974034)
+4. Agresya imelda anggrela (23050974036)
 
 Link Prodi : https://sindig.unesa.ac.id/kurikulum/s1-pendidikan-teknologi-informasi
