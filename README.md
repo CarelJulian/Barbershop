@@ -10,4 +10,4 @@ Anggota Kelompok :
 3. Winasari Rahma (23050974033)
 4. Agresya imelda anggrela (23050974034)
 
-Link Website : https://sindig.unesa.ac.id/kurikulum/s1-pendidikan-teknologi-informasi
+Link Prodi : https://sindig.unesa.ac.id/kurikulum/s1-pendidikan-teknologi-informasi
