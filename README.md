@@ -1,7 +1,7 @@
 # Barbershop (kelompok 2)
-Aplikasi Berbasis web dengan fungsi memudahkan usaha barbershop dengan menampilkan nomor antrian kepada pelanggan agar dapat menunggu antrian secara lebih efisien. Selain itu, untuk memudahkan admin/pengelola barbershop dapat mengatur nomor antrian pelanggan, juga memudahkan untuk merekap atau mencatat laporan penjualan/penghasilan secara bulanan.
+Aplikasi Berbasis web dengan tujuan fungsi memudahkan usaha barbershop dengan menampilkan nomor antrean kepada pelanggan agar dapat menunggu antrean secara lebih efisien, sehingga membantu jalannya operasional setiap harinya dengan baik. Selain itu, untuk memudahkan admin/pengelola barbershop dapat mengatur nomor antrean pelanggan, juga memudahkan untuk merekap atau mencatat laporan penjualan/penghasilan secara bulanan.
 
-Berikut gambar halaman utama :
+Berikut gambar halaman utama Aplikasi :
 ![Halaman Utama](https://github.com/user-attachments/assets/3a9a7c0b-4c16-4152-a4ff-2122e6d14fd6)
 
 Anggota Kelompok : 
